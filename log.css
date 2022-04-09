@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{  
+       
+    background-image: url("./FitnessPhoto/contact-bg.jpg");
+    background-size: cover;
+}
+
+.box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    padding: 10px;
+    background:rgba(255,255,255,.3);
+    box-shadow: 0 12px 25px;
+
+}
+.alert{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+
+}
+   
+.head{
+    font-size: 32px;
+    font-weight: 500;
+
+
+}
+
+      .formdesign {
+            
+            font-size: 18px;
+
+        }
+
+        .formdesign input {
+            width: 100%;
+            padding: 10px 5px;
+            border: 2px solid rgb(235, 123, 71);
+            margin: 2 px;
+            border-radius: 4px;
+            font-size: 15px;
+            border-color: #f0a160;
+        }
+
+        .formerror {
+            font-size: 13px;
+            color: red;
+        }
+
+        .but {
+            border-radius: 9px;
+            border: 2px solid rgb(235, 169, 71);
+            width: 70%;
+            height: 50px;
+            font-size: 20px;
+            margin: 10px 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            cursor: pointer;
+            background: linear-gradient(135deg, #facf8e, #eb8585);
+        }
